@@ -34,16 +34,5 @@ Start the dev server:
 
 
 
-Deployment
-
-This app can be deployed with Vercel in just a few clicks.
-Make sure your code is pushed to GitHub, then:
-
-    Go to vercel.com
-
-    Import your GitHub repo
-
-    Click “Deploy”
-
 That’s it!
 Book Data Source
