@@ -16,7 +16,7 @@ export default function Home() {
       const res = await fetch(`https://openlibrary.org/search.json?q=${encodeURIComponent(query)}`);
       const data = await res.json();
       setBooks(data.docs.slice(0, 10));
-    } catch (err) {
+    } catch {
       setError('Something went wrong. Please try again.');
     } finally {
       setLoading(false);
